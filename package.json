@@ -1,0 +1,40 @@
+{
+  "name": "base-typescript",
+  "version": "1.0.0",
+  "description": "estudando conceitos do Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvoOliveiraa/Base-Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvoOliveiraa/Base-Typescript/issues"
+  },
+  "homepage": "https://github.com/IvoOliveiraa/Base-Typescript#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "@types/validator": "^13.11.8",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "validator": "^13.11.0"
+  }
+}

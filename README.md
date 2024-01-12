@@ -1,2 +1,2 @@
-# Typescript-SOLID
- estudando princípios SOLID em Typescript
+# Base-Typescript
+ estudando conceitos do Typescript
